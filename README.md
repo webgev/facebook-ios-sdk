@@ -1,7 +1,7 @@
 # Facebook SDK for iOS
 
 [![Platforms](https://img.shields.io/cocoapods/p/FBSDKCoreKit.svg)](https://cocoapods.org/pods/FBSDKCoreKit)
-[![circleci](https://circleci.com/gh/facebook/facebook-ios-sdk/tree/main.svg?style=shield)](https://circleci.com/gh/facebook/facebook-ios-sdk/tree/main)
+[![circleci](https://circleci.com/gh/webgev/facebook-ios-sdk/tree/main.svg?style=shield)](https://circleci.com/gh/webgev/facebook-ios-sdk/tree/main)
 
 [![CocoaPods](https://img.shields.io/cocoapods/v/FBSDKCoreKit.svg)](https://cocoapods.org/pods/FBSDKCoreKit)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
@@ -11,11 +11,14 @@ This open-source library allows you to integrate Facebook into your iOS app.
 Learn more about the provided samples, documentation, integrating the SDK into your app, accessing source code, and more
 at https://developers.facebook.com/docs/ios
 
-Please take a moment and [subscribe to releases](https://docs.github.com/en/enterprise/2.15/user/articles/watching-and-unwatching-repositories) so that you can be notified about new features, deprecations, and critical fixes. To see information about the latest release, consult our [changelog](CHANGELOG.md).
+Please take a moment and
+[subscribe to releases](https://docs.github.com/en/enterprise/2.15/user/articles/watching-and-unwatching-repositories)
+so that you can be notified about new features, deprecations, and critical fixes. To see information about the latest
+release, consult our [changelog](CHANGELOG.md).
 
-|:warning: Be Advised :warning:|
-|:---|
-|<p>We have begun rewriting the iOS SDK in Swift in order to modernize the code base.</p><p>Please monitor the changelog for updates to existing interfaces but keep in mind that some interfaces will be unstable during this process. As such, updating to a minor version may introduce compilation issues related to language interoperability.</p>Please bear with us as we work towards providing an improved experience for integrating with the Facebook platform.|
+| :warning: Be Advised :warning:                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <p>We have begun rewriting the iOS SDK in Swift in order to modernize the code base.</p><p>Please monitor the changelog for updates to existing interfaces but keep in mind that some interfaces will be unstable during this process. As such, updating to a minor version may introduce compilation issues related to language interoperability.</p>Please bear with us as we work towards providing an improved experience for integrating with the Facebook platform. |
 
 ## TRY IT OUT
 
@@ -31,9 +34,13 @@ Please take a moment and [subscribe to releases](https://docs.github.com/en/ente
 
 ### Data Disclosure
 
-Due to the release of iOS 14, tracking events that your app collects and sends to Facebook may require you to disclosed these data types in the App Store Connect questionnaire. It is your responsibility to ensure this is reflected in your application’s privacy policy. Visit our blogpost for information on affected Facebook SDKs, APIs, and products and the Apple App Store Privacy Details article to learn more about the data types you will need to disclose.
+Due to the release of iOS 14, tracking events that your app collects and sends to Facebook may require you to disclosed
+these data types in the App Store Connect questionnaire. It is your responsibility to ensure this is reflected in your
+application’s privacy policy. Visit our blogpost for information on affected Facebook SDKs, APIs, and products and the
+Apple App Store Privacy Details article to learn more about the data types you will need to disclose.
 
-link to FB blogpost https://developers.facebook.com/blog/post/2020/10/22/preparing-for-apple-app-store-data-disclosure-requirements/
+link to FB blogpost
+https://developers.facebook.com/blog/post/2020/10/22/preparing-for-apple-app-store-data-disclosure-requirements/
 
 apple store details https://developer.apple.com/app-store/app-privacy-details/
 
@@ -47,12 +54,12 @@ apple store details https://developer.apple.com/app-store/app-privacy-details/
 
 ## GIVE FEEDBACK
 
-Please report bugs or issues to our designated developer support team -- <https://developers.facebook.com/support/bugs/> -- as this will help us resolve them more quickly.
+Please report bugs or issues to our designated developer support team -- <https://developers.facebook.com/support/bugs/>
+-- as this will help us resolve them more quickly.
 
-You can also visit our [Facebook Developer Community Forum](https://developers.facebook.com/community/),
-join the [Facebook Developers Group on Facebook](https://www.facebook.com/groups/fbdevelopers/),
-ask questions on [Stack Overflow](http://facebook.stackoverflow.com),
-or open an issue in this repository.
+You can also visit our [Facebook Developer Community Forum](https://developers.facebook.com/community/), join the
+[Facebook Developers Group on Facebook](https://www.facebook.com/groups/fbdevelopers/), ask questions on
+[Stack Overflow](http://facebook.stackoverflow.com), or open an issue in this repository.
 
 ## CONTRIBUTE
 

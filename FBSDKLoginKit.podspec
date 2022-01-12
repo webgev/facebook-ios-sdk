@@ -49,7 +49,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '10.0'
 
   s.source = {
-    http: "https://github.com/facebook/facebook-ios-sdk/releases/download/v#{s.version}/FacebookSDK_Dynamic.xcframework.zip",
+    http: "https://github.com/webgev/facebook-ios-sdk/releases/download/v#{s.version}/FacebookSDK_Dynamic.xcframework.zip",
     sha1: '598ba9eb4ab2a6103d4603dfbff41a25429cc285'
   }
   s.vendored_frameworks = 'XCFrameworks/FBSDKLoginKit.xcframework'
